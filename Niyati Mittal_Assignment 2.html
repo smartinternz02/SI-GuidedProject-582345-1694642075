@@ -1,0 +1,2720 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>f5af8da546f947ee8b16effeb7995e8d</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="niyati-mittal" class="cell markdown" id="tTMaQU7kd4S_">
+<h1>Niyati Mittal</h1>
+</section>
+<div class="cell code" data-execution_count="3" id="4TBKIl1jd9zu">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="j3xo1aCPeAeT" data-outputId="49e740b8-1c4d-432b-d4b7-abef0a2f4bc1">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(sns.get_dataset_names())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[&#39;anagrams&#39;, &#39;anscombe&#39;, &#39;attention&#39;, &#39;brain_networks&#39;, &#39;car_crashes&#39;, &#39;diamonds&#39;, &#39;dots&#39;, &#39;dowjones&#39;, &#39;exercise&#39;, &#39;flights&#39;, &#39;fmri&#39;, &#39;geyser&#39;, &#39;glue&#39;, &#39;healthexp&#39;, &#39;iris&#39;, &#39;mpg&#39;, &#39;penguins&#39;, &#39;planets&#39;, &#39;seaice&#39;, &#39;taxis&#39;, &#39;tips&#39;, &#39;titanic&#39;]
+</code></pre>
+</div>
+</div>
+<section id="loading-the-dataset-car_crashes" class="cell markdown"
+id="UBQKedGqeML7">
+<h1><strong>Loading the dataset car_crashes</strong></h1>
+</section>
+<div class="cell code" data-execution_count="4" id="Cj0U3LgpeDkt">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df<span class="op">=</span>sns.load_dataset(<span class="st">&#39;car_crashes&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="5"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="IyzV6K1qebCF" data-outputId="884cf41d-6a7c-4ceb-ba91-46a6f6f1a949">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+
+  <div id="df-5083fd26-8eec-4140-9e30-332afbf290bf" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>total</th>
+      <th>speeding</th>
+      <th>alcohol</th>
+      <th>not_distracted</th>
+      <th>no_previous</th>
+      <th>ins_premium</th>
+      <th>ins_losses</th>
+      <th>abbrev</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>18.8</td>
+      <td>7.332</td>
+      <td>5.640</td>
+      <td>18.048</td>
+      <td>15.040</td>
+      <td>784.55</td>
+      <td>145.08</td>
+      <td>AL</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>18.1</td>
+      <td>7.421</td>
+      <td>4.525</td>
+      <td>16.290</td>
+      <td>17.014</td>
+      <td>1053.48</td>
+      <td>133.93</td>
+      <td>AK</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>18.6</td>
+      <td>6.510</td>
+      <td>5.208</td>
+      <td>15.624</td>
+      <td>17.856</td>
+      <td>899.47</td>
+      <td>110.35</td>
+      <td>AZ</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>22.4</td>
+      <td>4.032</td>
+      <td>5.824</td>
+      <td>21.056</td>
+      <td>21.280</td>
+      <td>827.34</td>
+      <td>142.39</td>
+      <td>AR</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>12.0</td>
+      <td>4.200</td>
+      <td>3.360</td>
+      <td>10.920</td>
+      <td>10.680</td>
+      <td>878.41</td>
+      <td>165.63</td>
+      <td>CA</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>13.6</td>
+      <td>5.032</td>
+      <td>3.808</td>
+      <td>10.744</td>
+      <td>12.920</td>
+      <td>835.50</td>
+      <td>139.91</td>
+      <td>CO</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>10.8</td>
+      <td>4.968</td>
+      <td>3.888</td>
+      <td>9.396</td>
+      <td>8.856</td>
+      <td>1068.73</td>
+      <td>167.02</td>
+      <td>CT</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>16.2</td>
+      <td>6.156</td>
+      <td>4.860</td>
+      <td>14.094</td>
+      <td>16.038</td>
+      <td>1137.87</td>
+      <td>151.48</td>
+      <td>DE</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>5.9</td>
+      <td>2.006</td>
+      <td>1.593</td>
+      <td>5.900</td>
+      <td>5.900</td>
+      <td>1273.89</td>
+      <td>136.05</td>
+      <td>DC</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>17.9</td>
+      <td>3.759</td>
+      <td>5.191</td>
+      <td>16.468</td>
+      <td>16.826</td>
+      <td>1160.13</td>
+      <td>144.18</td>
+      <td>FL</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>15.6</td>
+      <td>2.964</td>
+      <td>3.900</td>
+      <td>14.820</td>
+      <td>14.508</td>
+      <td>913.15</td>
+      <td>142.80</td>
+      <td>GA</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>17.5</td>
+      <td>9.450</td>
+      <td>7.175</td>
+      <td>14.350</td>
+      <td>15.225</td>
+      <td>861.18</td>
+      <td>120.92</td>
+      <td>HI</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>15.3</td>
+      <td>5.508</td>
+      <td>4.437</td>
+      <td>13.005</td>
+      <td>14.994</td>
+      <td>641.96</td>
+      <td>82.75</td>
+      <td>ID</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>12.8</td>
+      <td>4.608</td>
+      <td>4.352</td>
+      <td>12.032</td>
+      <td>12.288</td>
+      <td>803.11</td>
+      <td>139.15</td>
+      <td>IL</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>14.5</td>
+      <td>3.625</td>
+      <td>4.205</td>
+      <td>13.775</td>
+      <td>13.775</td>
+      <td>710.46</td>
+      <td>108.92</td>
+      <td>IN</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>15.7</td>
+      <td>2.669</td>
+      <td>3.925</td>
+      <td>15.229</td>
+      <td>13.659</td>
+      <td>649.06</td>
+      <td>114.47</td>
+      <td>IA</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>17.8</td>
+      <td>4.806</td>
+      <td>4.272</td>
+      <td>13.706</td>
+      <td>15.130</td>
+      <td>780.45</td>
+      <td>133.80</td>
+      <td>KS</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>21.4</td>
+      <td>4.066</td>
+      <td>4.922</td>
+      <td>16.692</td>
+      <td>16.264</td>
+      <td>872.51</td>
+      <td>137.13</td>
+      <td>KY</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>20.5</td>
+      <td>7.175</td>
+      <td>6.765</td>
+      <td>14.965</td>
+      <td>20.090</td>
+      <td>1281.55</td>
+      <td>194.78</td>
+      <td>LA</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>15.1</td>
+      <td>5.738</td>
+      <td>4.530</td>
+      <td>13.137</td>
+      <td>12.684</td>
+      <td>661.88</td>
+      <td>96.57</td>
+      <td>ME</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>12.5</td>
+      <td>4.250</td>
+      <td>4.000</td>
+      <td>8.875</td>
+      <td>12.375</td>
+      <td>1048.78</td>
+      <td>192.70</td>
+      <td>MD</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>8.2</td>
+      <td>1.886</td>
+      <td>2.870</td>
+      <td>7.134</td>
+      <td>6.560</td>
+      <td>1011.14</td>
+      <td>135.63</td>
+      <td>MA</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>14.1</td>
+      <td>3.384</td>
+      <td>3.948</td>
+      <td>13.395</td>
+      <td>10.857</td>
+      <td>1110.61</td>
+      <td>152.26</td>
+      <td>MI</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>9.6</td>
+      <td>2.208</td>
+      <td>2.784</td>
+      <td>8.448</td>
+      <td>8.448</td>
+      <td>777.18</td>
+      <td>133.35</td>
+      <td>MN</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>17.6</td>
+      <td>2.640</td>
+      <td>5.456</td>
+      <td>1.760</td>
+      <td>17.600</td>
+      <td>896.07</td>
+      <td>155.77</td>
+      <td>MS</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>16.1</td>
+      <td>6.923</td>
+      <td>5.474</td>
+      <td>14.812</td>
+      <td>13.524</td>
+      <td>790.32</td>
+      <td>144.45</td>
+      <td>MO</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>21.4</td>
+      <td>8.346</td>
+      <td>9.416</td>
+      <td>17.976</td>
+      <td>18.190</td>
+      <td>816.21</td>
+      <td>85.15</td>
+      <td>MT</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>14.9</td>
+      <td>1.937</td>
+      <td>5.215</td>
+      <td>13.857</td>
+      <td>13.410</td>
+      <td>732.28</td>
+      <td>114.82</td>
+      <td>NE</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>14.7</td>
+      <td>5.439</td>
+      <td>4.704</td>
+      <td>13.965</td>
+      <td>14.553</td>
+      <td>1029.87</td>
+      <td>138.71</td>
+      <td>NV</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>11.6</td>
+      <td>4.060</td>
+      <td>3.480</td>
+      <td>10.092</td>
+      <td>9.628</td>
+      <td>746.54</td>
+      <td>120.21</td>
+      <td>NH</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>11.2</td>
+      <td>1.792</td>
+      <td>3.136</td>
+      <td>9.632</td>
+      <td>8.736</td>
+      <td>1301.52</td>
+      <td>159.85</td>
+      <td>NJ</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>18.4</td>
+      <td>3.496</td>
+      <td>4.968</td>
+      <td>12.328</td>
+      <td>18.032</td>
+      <td>869.85</td>
+      <td>120.75</td>
+      <td>NM</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>12.3</td>
+      <td>3.936</td>
+      <td>3.567</td>
+      <td>10.824</td>
+      <td>9.840</td>
+      <td>1234.31</td>
+      <td>150.01</td>
+      <td>NY</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>16.8</td>
+      <td>6.552</td>
+      <td>5.208</td>
+      <td>15.792</td>
+      <td>13.608</td>
+      <td>708.24</td>
+      <td>127.82</td>
+      <td>NC</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>23.9</td>
+      <td>5.497</td>
+      <td>10.038</td>
+      <td>23.661</td>
+      <td>20.554</td>
+      <td>688.75</td>
+      <td>109.72</td>
+      <td>ND</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>14.1</td>
+      <td>3.948</td>
+      <td>4.794</td>
+      <td>13.959</td>
+      <td>11.562</td>
+      <td>697.73</td>
+      <td>133.52</td>
+      <td>OH</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>19.9</td>
+      <td>6.368</td>
+      <td>5.771</td>
+      <td>18.308</td>
+      <td>18.706</td>
+      <td>881.51</td>
+      <td>178.86</td>
+      <td>OK</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>12.8</td>
+      <td>4.224</td>
+      <td>3.328</td>
+      <td>8.576</td>
+      <td>11.520</td>
+      <td>804.71</td>
+      <td>104.61</td>
+      <td>OR</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>18.2</td>
+      <td>9.100</td>
+      <td>5.642</td>
+      <td>17.472</td>
+      <td>16.016</td>
+      <td>905.99</td>
+      <td>153.86</td>
+      <td>PA</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>11.1</td>
+      <td>3.774</td>
+      <td>4.218</td>
+      <td>10.212</td>
+      <td>8.769</td>
+      <td>1148.99</td>
+      <td>148.58</td>
+      <td>RI</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>23.9</td>
+      <td>9.082</td>
+      <td>9.799</td>
+      <td>22.944</td>
+      <td>19.359</td>
+      <td>858.97</td>
+      <td>116.29</td>
+      <td>SC</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>19.4</td>
+      <td>6.014</td>
+      <td>6.402</td>
+      <td>19.012</td>
+      <td>16.684</td>
+      <td>669.31</td>
+      <td>96.87</td>
+      <td>SD</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>19.5</td>
+      <td>4.095</td>
+      <td>5.655</td>
+      <td>15.990</td>
+      <td>15.795</td>
+      <td>767.91</td>
+      <td>155.57</td>
+      <td>TN</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>19.4</td>
+      <td>7.760</td>
+      <td>7.372</td>
+      <td>17.654</td>
+      <td>16.878</td>
+      <td>1004.75</td>
+      <td>156.83</td>
+      <td>TX</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>11.3</td>
+      <td>4.859</td>
+      <td>1.808</td>
+      <td>9.944</td>
+      <td>10.848</td>
+      <td>809.38</td>
+      <td>109.48</td>
+      <td>UT</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>13.6</td>
+      <td>4.080</td>
+      <td>4.080</td>
+      <td>13.056</td>
+      <td>12.920</td>
+      <td>716.20</td>
+      <td>109.61</td>
+      <td>VT</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>12.7</td>
+      <td>2.413</td>
+      <td>3.429</td>
+      <td>11.049</td>
+      <td>11.176</td>
+      <td>768.95</td>
+      <td>153.72</td>
+      <td>VA</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>10.6</td>
+      <td>4.452</td>
+      <td>3.498</td>
+      <td>8.692</td>
+      <td>9.116</td>
+      <td>890.03</td>
+      <td>111.62</td>
+      <td>WA</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>23.8</td>
+      <td>8.092</td>
+      <td>6.664</td>
+      <td>23.086</td>
+      <td>20.706</td>
+      <td>992.61</td>
+      <td>152.56</td>
+      <td>WV</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>13.8</td>
+      <td>4.968</td>
+      <td>4.554</td>
+      <td>5.382</td>
+      <td>11.592</td>
+      <td>670.31</td>
+      <td>106.62</td>
+      <td>WI</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>17.4</td>
+      <td>7.308</td>
+      <td>5.568</td>
+      <td>14.094</td>
+      <td>15.660</td>
+      <td>791.14</td>
+      <td>122.04</td>
+      <td>WY</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-5083fd26-8eec-4140-9e30-332afbf290bf')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-5083fd26-8eec-4140-9e30-332afbf290bf button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-5083fd26-8eec-4140-9e30-332afbf290bf');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-d8fa75cb-0d66-466b-b926-04250b2e0440">
+  <button class="colab-df-quickchart" onclick="quickchart('df-d8fa75cb-0d66-466b-b926-04250b2e0440')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-d8fa75cb-0d66-466b-b926-04250b2e0440 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<section id="dataset-related-information" class="cell markdown"
+id="NeZ3PIEKehjy">
+<h1><strong>Dataset related Information</strong></h1>
+</section>
+<div class="cell code" data-execution_count="6"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Lijb1BwYedUp" data-outputId="7c3c892b-3b02-4c5f-daa3-de751260869a">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 51 entries, 0 to 50
+Data columns (total 8 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   total           51 non-null     float64
+ 1   speeding        51 non-null     float64
+ 2   alcohol         51 non-null     float64
+ 3   not_distracted  51 non-null     float64
+ 4   no_previous     51 non-null     float64
+ 5   ins_premium     51 non-null     float64
+ 6   ins_losses      51 non-null     float64
+ 7   abbrev          51 non-null     object 
+dtypes: float64(7), object(1)
+memory usage: 3.3+ KB
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="7"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:206}"
+id="9K2V7W42emCt" data-outputId="3213dad3-db76-41de-ac92-b766c7cd9fe2">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+
+  <div id="df-3bec1080-ba6b-47a7-b497-3017d334e480" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>total</th>
+      <th>speeding</th>
+      <th>alcohol</th>
+      <th>not_distracted</th>
+      <th>no_previous</th>
+      <th>ins_premium</th>
+      <th>ins_losses</th>
+      <th>abbrev</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>18.8</td>
+      <td>7.332</td>
+      <td>5.640</td>
+      <td>18.048</td>
+      <td>15.040</td>
+      <td>784.55</td>
+      <td>145.08</td>
+      <td>AL</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>18.1</td>
+      <td>7.421</td>
+      <td>4.525</td>
+      <td>16.290</td>
+      <td>17.014</td>
+      <td>1053.48</td>
+      <td>133.93</td>
+      <td>AK</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>18.6</td>
+      <td>6.510</td>
+      <td>5.208</td>
+      <td>15.624</td>
+      <td>17.856</td>
+      <td>899.47</td>
+      <td>110.35</td>
+      <td>AZ</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>22.4</td>
+      <td>4.032</td>
+      <td>5.824</td>
+      <td>21.056</td>
+      <td>21.280</td>
+      <td>827.34</td>
+      <td>142.39</td>
+      <td>AR</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>12.0</td>
+      <td>4.200</td>
+      <td>3.360</td>
+      <td>10.920</td>
+      <td>10.680</td>
+      <td>878.41</td>
+      <td>165.63</td>
+      <td>CA</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-3bec1080-ba6b-47a7-b497-3017d334e480')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-3bec1080-ba6b-47a7-b497-3017d334e480 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-3bec1080-ba6b-47a7-b497-3017d334e480');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-24930595-ad7a-4db4-b6b6-8fbc2894542a">
+  <button class="colab-df-quickchart" onclick="quickchart('df-24930595-ad7a-4db4-b6b6-8fbc2894542a')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-24930595-ad7a-4db4-b6b6-8fbc2894542a button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code" data-execution_count="8"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:206}"
+id="kFxcZX8rewv_" data-outputId="8ded25b8-d186-4878-87e8-d5faa3f58416">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>df.tail()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+
+  <div id="df-3fea495b-0aca-47eb-88c2-3f8a71080873" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>total</th>
+      <th>speeding</th>
+      <th>alcohol</th>
+      <th>not_distracted</th>
+      <th>no_previous</th>
+      <th>ins_premium</th>
+      <th>ins_losses</th>
+      <th>abbrev</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>46</th>
+      <td>12.7</td>
+      <td>2.413</td>
+      <td>3.429</td>
+      <td>11.049</td>
+      <td>11.176</td>
+      <td>768.95</td>
+      <td>153.72</td>
+      <td>VA</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>10.6</td>
+      <td>4.452</td>
+      <td>3.498</td>
+      <td>8.692</td>
+      <td>9.116</td>
+      <td>890.03</td>
+      <td>111.62</td>
+      <td>WA</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>23.8</td>
+      <td>8.092</td>
+      <td>6.664</td>
+      <td>23.086</td>
+      <td>20.706</td>
+      <td>992.61</td>
+      <td>152.56</td>
+      <td>WV</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>13.8</td>
+      <td>4.968</td>
+      <td>4.554</td>
+      <td>5.382</td>
+      <td>11.592</td>
+      <td>670.31</td>
+      <td>106.62</td>
+      <td>WI</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>17.4</td>
+      <td>7.308</td>
+      <td>5.568</td>
+      <td>14.094</td>
+      <td>15.660</td>
+      <td>791.14</td>
+      <td>122.04</td>
+      <td>WY</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-3fea495b-0aca-47eb-88c2-3f8a71080873')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-3fea495b-0aca-47eb-88c2-3f8a71080873 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-3fea495b-0aca-47eb-88c2-3f8a71080873');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-517a2594-8175-45b6-baa4-ac9bb2b6142e">
+  <button class="colab-df-quickchart" onclick="quickchart('df-517a2594-8175-45b6-baa4-ac9bb2b6142e')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-517a2594-8175-45b6-baa4-ac9bb2b6142e button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<section id="1-the-dist-plot" class="cell markdown" id="aUiwODyffBQ4">
+<h1><strong>1. The Dist Plot</strong></h1>
+<p>The distplot() shows the histogram distribution of data for a single
+column. The column name is passed as a parameter to the distplot()
+function. Let's see how the price of the ticket for each passenger is
+distributed.</p>
+</section>
+<div class="cell code" data-execution_count="9"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:657}"
+id="AxJMNLCAezCn" data-outputId="ca2db87a-746a-47ed-e033-9addaae171df">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>sns.distplot(df[<span class="st">&#39;speeding&#39;</span>])</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-9-192cfe43af0d&gt;:1: UserWarning: 
+
+`distplot` is a deprecated function and will be removed in seaborn v0.14.0.
+
+Please adapt your code to use either `displot` (a figure-level function with
+similar flexibility) or `histplot` (an axes-level function for histograms).
+
+For a guide to updating your code to use the new functions, please see
+https://gist.github.com/mwaskom/de44147ed2974457ad6372750bbe5751
+
+  sns.distplot(df[&#39;speeding&#39;])
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="9">
+<pre><code>&lt;Axes: xlabel=&#39;speeding&#39;, ylabel=&#39;Density&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/04dfcdb6a120f519a38558ed452dd4894c61a330.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="ldwhJed7fsK5">
+<p>We can see that most of the speeds have been in between 2-9. The line
+that you see represents the kernel density estimation.</p>
+</div>
+<section id="2-scatter-plot" class="cell markdown" id="Brf4F_WUnnwK">
+<h1><strong>2. Scatter Plot</strong></h1>
+</section>
+<div class="cell code" data-execution_count="21"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:564}"
+id="YEbaSVafqi6p" data-outputId="1071dfc2-427d-4eb9-9501-0c7ab76dc4b2">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Scatterplot with Regression Line: Alcohol vs. Total Crashes</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>sns.regplot(x<span class="op">=</span><span class="st">&#39;alcohol&#39;</span>, y<span class="op">=</span><span class="st">&#39;total&#39;</span>, data<span class="op">=</span>df)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Alcohol Involvement&quot;</span>)</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Total Crashes&quot;</span>)</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Alcohol Involvement vs. Total Crashes&quot;</span>)</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/6a5d67ea02ec1f0edc1505e2d72147d547828fa6.png" /></p>
+</div>
+</div>
+<section id="inference" class="cell markdown" id="b4dgLX4eqo_d">
+<h1>Inference:</h1>
+<ul>
+<li>The scatterplot with a regression line shows a clear positive
+correlation between alcohol involvement and total crashes.</li>
+<li>As the alcohol involvement increases, there is a corresponding
+increase in the total number of crashes.</li>
+</ul>
+</section>
+<section id="alcohol-vs-total-crashes-scatterplot-with-regression-line"
+class="cell markdown" id="gLuzhvaMqtP_">
+<h1>Alcohol vs. Total Crashes (Scatterplot with Regression Line):</h1>
+<p>The scatterplot with the regression line confirms a strong positive
+correlation between alcohol involvement and the total number of crashes.
+As alcohol involvement increases, there is a clear trend of more crashes
+occurring. This indicates the significant role of alcohol in
+contributing to car crashes.</p>
+</section>
+<section id="3-box-plot" class="cell markdown" id="SqxeLZooTx0T">
+<h1><strong>3. Box Plot</strong></h1>
+</section>
+<div class="cell code" data-execution_count="13"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:487}"
+id="MSrVZuamnB7s" data-outputId="19a7aa05-8ce4-4f45-922c-53b9fc1fa46c">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplot to visualize the distribution of the &#39;total&#39; column</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">5</span>))</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x<span class="op">=</span><span class="st">&#39;total&#39;</span>, data<span class="op">=</span>df)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Total Crashes&quot;</span>)</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Distribution of Total Crashes&quot;</span>)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/ce2269b424004e782d018650cb153bcd4f2d300d.png" /></p>
+</div>
+</div>
+<section id="inference" class="cell markdown" id="5l2lomZfhylf">
+<h1>Inference:</h1>
+<ul>
+<li>The boxplot shows the distribution of the 'total' column.</li>
+<li>It highlights the median, quartiles, and potential outliers.</li>
+<li>Some states have a higher number of total crashes than others.</li>
+</ul>
+</section>
+<section id="distribution-of-total-crashes-boxplot"
+class="cell markdown" id="pQd9qa_jiEa-">
+<h1>Distribution of Total Crashes (Boxplot):</h1>
+<p>The boxplot reveals that the distribution of total crashes varies
+among states. Some states have a significantly higher number of total
+crashes, suggesting potential differences in traffic safety measures or
+road conditions across states.</p>
+</section>
+<section id="4-count-plot" class="cell markdown" id="7N09OAiTiRxz">
+<h1><strong>4. Count Plot</strong></h1>
+</section>
+<div class="cell code" data-execution_count="14"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:564}"
+id="hwZtnU3KiXDP" data-outputId="f0550c10-6237-473e-9559-4a65a5425df1">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Countplot to visualize the frequency of different types of crashes (abbreviated as &#39;abbrev&#39;)</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>sns.countplot(y<span class="op">=</span><span class="st">&#39;abbrev&#39;</span>, data<span class="op">=</span>df, order<span class="op">=</span>df[<span class="st">&#39;abbrev&#39;</span>].value_counts().index)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Frequency&quot;</span>)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;State Abbreviation&quot;</span>)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Frequency of Different Types of Crashes by State&quot;</span>)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/81a74dedb64d804d9e8622286c40ea5b3b1f0a61.png" /></p>
+</div>
+</div>
+<section id="inference" class="cell markdown" id="PkWlA9bLif0l">
+<h1>Inference:</h1>
+<ul>
+<li>The countplot displays the frequency of different types of crashes
+by state.</li>
+<li>It provides insights into the most common types of crashes in each
+state.</li>
+</ul>
+</section>
+<section id="frequency-of-different-types-of-crashes-countplot"
+class="cell markdown" id="CFXxN8SLilOo">
+<h1>Frequency of Different Types of Crashes (Countplot):</h1>
+<p>The countplot shows that "OH" (Ohio) has the highest frequency of
+different types of crashes, indicating a relatively higher occurrence of
+car crashes in Ohio. "WY" (Wyoming) has the lowest frequency, suggesting
+it has a lower number of recorded car crashes.</p>
+</section>
+<section id="5-joint-plot" class="cell markdown" id="n2zDOhvLitQ6">
+<h1><strong>5. Joint Plot</strong></h1>
+</section>
+<div class="cell code" data-execution_count="15"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:607}"
+id="_QbPQAx7jdp-" data-outputId="9a773f3a-ec72-4e22-8ff4-1c3bb5f9a69e">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Jointplot to visualize the relationship between &#39;speeding&#39; and &#39;alcohol&#39; columns</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>sns.jointplot(x<span class="op">=</span><span class="st">&#39;speeding&#39;</span>, y<span class="op">=</span><span class="st">&#39;alcohol&#39;</span>, data<span class="op">=</span>df, kind<span class="op">=</span><span class="st">&#39;scatter&#39;</span>)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Speeding&quot;</span>)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Alcohol Involvement&quot;</span>)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Relationship between Speeding and Alcohol Involvement&quot;</span>)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/bcdbdf3f18578416a10a5cb4b38c243905716438.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="LrL7IkpqkMtP">
+<p>The jointplot()is used to display the mutual distribution of each
+column. You need to pass three parameters to jointplot. The first
+parameter is the column name for which you want to display the
+distribution of data on x-axis. The second parameter is the column name
+for which you want to display the distribution of data on y-axis.
+Finally, the third parameter is the name of the data frame.</p>
+</div>
+<section id="inference" class="cell markdown" id="HqcEyYGMkSze">
+<h1>Inference:</h1>
+<ul>
+<li>The jointplot displays a scatter plot and histograms for 'speeding'
+and 'alcohol' columns.</li>
+<li>It helps us examine the relationship between speeding and alcohol
+involvement in car crashes.</li>
+</ul>
+</section>
+<section
+id="relationship-between-speeding-and-alcohol-involvement-jointplot"
+class="cell markdown" id="2B24XyhWkbUz">
+<h1>Relationship between Speeding and Alcohol Involvement
+(Jointplot):</h1>
+<p>The jointplot scatter plot between "speeding" and "alcohol"
+involvement indicates a positive relationship between these factors.
+This suggests that in states where speeding is a common factor in car
+crashes, alcohol involvement tends to be higher, and vice versa.</p>
+</section>
+<section id="6-pair-grid" class="cell markdown" id="K8uJ1bTzkeWD">
+<h1><strong>6. Pair Grid</strong></h1>
+</section>
+<div class="cell code" data-execution_count="16"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="hQsyaQlkkVog" data-outputId="855f9e2d-4767-4530-d072-05aa97593a62">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># PairGrid to explore pairwise relationships between numeric columns</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>g <span class="op">=</span> sns.PairGrid(df, <span class="bu">vars</span><span class="op">=</span>[<span class="st">&#39;total&#39;</span>, <span class="st">&#39;speeding&#39;</span>, <span class="st">&#39;alcohol&#39;</span>, <span class="st">&#39;not_distracted&#39;</span>])</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>g.<span class="bu">map</span>(sns.scatterplot)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>plt.suptitle(<span class="st">&quot;Pairwise Relationships between Numeric Columns&quot;</span>)</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/ff209429157792a1a368dbd3360d94ca7ec6c6ec.png" /></p>
+</div>
+</div>
+<section id="inference" class="cell markdown" id="SxqVVOBukqV6">
+<h1>Inference:</h1>
+<ul>
+<li>PairGrid allows us to create scatter plots for pairwise
+relationships between specific numeric columns.</li>
+<li>It helps us analyze how different factors are related to each other
+in car crashes.</li>
+</ul>
+</section>
+<section id="pairwise-relationships-pairgrid" class="cell markdown"
+id="zyxO0ursk4s1">
+<h1>Pairwise Relationships (PairGrid):</h1>
+<p>The PairGrid scatter plots show various pairwise relationships
+between numeric columns. For example, the scatter plot between
+"speeding" and "total" crashes suggests that higher speeding rates are
+associated with more total crashes.</p>
+</section>
+<section id="7-regression-plot" class="cell markdown" id="5FD_Dy86k96i">
+<h1><strong>7. Regression Plot</strong></h1>
+</section>
+<div class="cell code" data-execution_count="18"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:472}"
+id="s7mtkMy1k9aR" data-outputId="a67df9b0-3000-49e3-b43b-a0e81e9b3fdb">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Regression plot to visualize the linear relationship between &#39;alcohol&#39; and &#39;total&#39; crashes</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>sns.regplot(x<span class="op">=</span><span class="st">&#39;alcohol&#39;</span>, y<span class="op">=</span><span class="st">&#39;total&#39;</span>, data<span class="op">=</span>df)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Alcohol Involvement&quot;</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Total Crashes&quot;</span>)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Linear Relationship between Alcohol Involvement and Total Crashes&quot;</span>)</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/9dc340e0301f09819034ff2a281cc2bc0d9a0261.png" /></p>
+</div>
+</div>
+<section id="inference" class="cell markdown" id="xRz_wRpXlPo0">
+<h1>Inference:</h1>
+<ul>
+<li>The regression plot shows a linear relationship between alcohol
+involvement and total crashes.</li>
+<li>As alcohol involvement increases, the total number of crashes tends
+to increase as well.</li>
+</ul>
+</section>
+<section
+id="linear-relationship-between-alcohol-involvement-and-total-crashes-regression-plot"
+class="cell markdown" id="e5JgvSkylU3e">
+<h1>Linear Relationship between Alcohol Involvement and Total Crashes
+(Regression Plot):</h1>
+<p>The regression plot demonstrates a positive linear relationship
+between alcohol involvement and total crashes. This means that as
+alcohol involvement increases, the total number of crashes tends to
+increase linearly.</p>
+</section>
+<section id="8-kernel-density-estimation-plot" class="cell markdown"
+id="4R60WD4ela48">
+<h1><strong>8. Kernel Density Estimation Plot</strong></h1>
+</section>
+<div class="cell code" data-execution_count="19"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:591}"
+id="2ZreL6aglPF3" data-outputId="1c3616a2-510f-4621-f70a-a77ffcb1ad36">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># KDE (Kernel Density Estimation) plot for the distribution of &#39;speeding&#39; values</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">5</span>))</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>sns.kdeplot(df[<span class="st">&#39;speeding&#39;</span>], shade<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Speeding&quot;</span>)</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Kernel Density Estimation (KDE) of Speeding&quot;</span>)</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-19-bbbbfd4e6044&gt;:3: FutureWarning: 
+
+`shade` is now deprecated in favor of `fill`; setting `fill=True`.
+This will become an error in seaborn v0.14.0; please update your code.
+
+  sns.kdeplot(df[&#39;speeding&#39;], shade=True)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/4bca5376ebf62bcf35e81f1ddec3d033f6649cd9.png" /></p>
+</div>
+</div>
+<section id="inference" class="cell markdown" id="wTBJB7S8lyUA">
+<h1>Inference:</h1>
+<ul>
+<li>The KDE plot provides an estimate of the probability density
+function for the 'speeding' column.</li>
+<li>It helps us visualize the distribution of speeding values in the
+dataset.</li>
+</ul>
+</section>
+<section id="distribution-of-speeding-values-kde-plot"
+class="cell markdown" id="y8ZfCD8vmIIy">
+<h1>Distribution of Speeding Values (KDE Plot):</h1>
+<p>The KDE plot of "speeding" values indicates that the majority of
+states have a relatively low frequency of high-speeding car crashes.
+However, some states exhibit a more substantial presence of
+high-speeding accidents, leading to a broader distribution.</p>
+</section>
+<section id="9-pair-plot-with-hue" class="cell markdown"
+id="Gfb7NNz5mNi-">
+<h1><strong>9. Pair Plot with Hue</strong></h1>
+</section>
+<div class="cell code" data-execution_count="20"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="dQGVBcOzmjj9" data-outputId="7df14260-15b8-41cc-c92e-fb1461beb825">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Pairplot with hue to visualize relationships with &#39;alcohol&#39; while considering &#39;not_distracted&#39;</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>sns.pairplot(df, hue<span class="op">=</span><span class="st">&#39;not_distracted&#39;</span>)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/814033e67cd066ad6a983f656dac116cfd5db17a.png" /></p>
+</div>
+</div>
+<section id="inference" class="cell markdown" id="apcGtxehmx6C">
+<h1>Inference:</h1>
+<ul>
+<li>The pairplot with hue separates data points by the 'not_distracted'
+column.</li>
+<li>It allows us to see how relationships between numeric columns differ
+based on distraction status.</li>
+</ul>
+</section>
+<section
+id="relationships-with-alcohol-involvement-and-distraction-pairplot-with-hue"
+class="cell markdown" id="MqIHDff6nHwh">
+<h1>Relationships with Alcohol Involvement and Distraction (Pairplot
+with Hue):</h1>
+<p>The pairplot with hue differentiates between "not_distracted" and
+"distracted" cases. It suggests that distracted and not distracted
+states exhibit different relationships between numeric columns. In
+distracted states, certain factors may have a more pronounced impact on
+the total number of crashes compared to not distracted states.</p>
+</section>
+<section id="10-violin-plot" class="cell markdown" id="mtavkAYkq0Lg">
+<h1><strong>10. Violin Plot</strong></h1>
+</section>
+<div class="cell code" data-execution_count="22"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:564}"
+id="Qr5ODUneq6Pr" data-outputId="0510eaed-2814-4172-df9e-06b2a2008342">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Violin Plot: Speeding vs. Alcohol Involvement</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>sns.violinplot(x<span class="op">=</span><span class="st">&#39;speeding&#39;</span>, y<span class="op">=</span><span class="st">&#39;alcohol&#39;</span>, data<span class="op">=</span>df)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Speeding&quot;</span>)</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Alcohol Involvement&quot;</span>)</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Speeding vs. Alcohol Involvement&quot;</span>)</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/90430c4fe51391740efb7117e83ea928a687a31a.png" /></p>
+</div>
+</div>
+<section id="inference" class="cell markdown" id="mEB0OyAaq_YB">
+<h1>Inference:</h1>
+<ul>
+<li>The violin plot illustrates the distribution of alcohol involvement
+for different speeding levels.</li>
+<li>It suggests that higher speeding rates are associated with a wider
+range of alcohol involvement.</li>
+<li>States with high speeding rates tend to have a broader distribution
+of alcohol involvement.</li>
+</ul>
+</section>
+<section id="speeding-vs-alcohol-involvement-violin-plot"
+class="cell markdown" id="DgSwxUwsrEUK">
+<h1>Speeding vs. Alcohol Involvement (Violin Plot):</h1>
+<p>The violin plot highlights that higher speeding rates are associated
+with a wider range of alcohol involvement. States with high speeding
+rates tend to exhibit a broader distribution of alcohol involvement.
+This suggests a potential relationship between aggressive driving
+behavior (speeding) and increased alcohol-related crashes.</p>
+</section>
+<section id="11-bar-plot" class="cell markdown" id="6Lw-M8xVrJNq">
+<h1><strong>11. Bar Plot</strong></h1>
+</section>
+<div class="cell code" data-execution_count="23"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="2iPeKCO8rN4i" data-outputId="b123f45f-04d2-48a3-eb83-e02c892d34a3">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Bar Plot: Alcohol vs. Not Distracted (Grouped by State)</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>sns.barplot(x<span class="op">=</span><span class="st">&#39;alcohol&#39;</span>, y<span class="op">=</span><span class="st">&#39;abbrev&#39;</span>, hue<span class="op">=</span><span class="st">&#39;not_distracted&#39;</span>, data<span class="op">=</span>df, ci<span class="op">=</span><span class="va">None</span>)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Alcohol Involvement&quot;</span>)</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;State Abbreviation&quot;</span>)</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Alcohol Involvement by State (Distracted vs. Not Distracted)&quot;</span>)</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">&quot;Distracted&quot;</span>)</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-23-9a95311a3007&gt;:3: FutureWarning: 
+
+The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
+
+  sns.barplot(x=&#39;alcohol&#39;, y=&#39;abbrev&#39;, hue=&#39;not_distracted&#39;, data=df, ci=None)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/0d107e4ce011919db26cc0fcb09edebd0e179d8c.png" /></p>
+</div>
+</div>
+<section id="inference" class="cell markdown" id="XQq0uFLqraSs">
+<h1>Inference:</h1>
+<ul>
+<li>The bar plot compares alcohol involvement in car crashes by state,
+grouped by distraction status.</li>
+<li>It shows that for some states, alcohol involvement is higher in
+distracted cases, while for others, it's higher in not distracted
+cases.</li>
+<li>This suggests that the impact of distraction on alcohol-related
+crashes varies by state.</li>
+</ul>
+</section>
+<section id="alcohol-involvement-by-state-bar-plot"
+class="cell markdown" id="Cepdbl2RrkT4">
+<h1>Alcohol Involvement by State (Bar Plot):</h1>
+<p>The bar plot shows variations in alcohol involvement by state,
+grouped by distraction status (distracted vs. not distracted). It
+underscores the state-level differences in how distraction and alcohol
+affect car crashes. Some states have higher alcohol involvement in
+distracted cases, indicating the complex interplay between these
+factors.</p>
+</section>
+<section id="12-swarm-plot" class="cell markdown" id="AwKaK5Jhrw7y">
+<h1><strong>12. Swarm Plot</strong></h1>
+</section>
+<div class="cell code" data-execution_count="24"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:718}"
+id="zzxg1Q6nrwiA" data-outputId="bf5f936d-083c-4679-d4e6-1ac6967d8489">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Swarm Plot: Alcohol Involvement by State</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">8</span>))</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>sns.swarmplot(x<span class="op">=</span><span class="st">&#39;alcohol&#39;</span>, y<span class="op">=</span><span class="st">&#39;abbrev&#39;</span>, data<span class="op">=</span>df)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Alcohol Involvement&quot;</span>)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;State Abbreviation&quot;</span>)</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Alcohol Involvement by State&quot;</span>)</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/4d3246eb82400d53fe32279206caed370afc349e.png" /></p>
+</div>
+</div>
+<section id="inference" class="cell markdown" id="KUwEamNAr9qh">
+<h1>Inference:</h1>
+<ul>
+<li>The swarm plot displays the distribution of alcohol involvement in
+car crashes for each state.</li>
+<li>It highlights the range of alcohol involvement and any potential
+outliers in each state's crash data.</li>
+</ul>
+</section>
+<section id="alcohol-involvement-by-state-swarm-plot"
+class="cell markdown" id="-PxW1i93sKDm">
+<h1>Alcohol Involvement by State (Swarm Plot):</h1>
+<p>The swarm plot provides a detailed view of the distribution of
+alcohol involvement in car crashes by state. It reveals the presence of
+outliers in some states, suggesting that certain states have a higher
+incidence of extreme alcohol involvement in crashes.</p>
+</section>
+<section id="13-histogram" class="cell markdown" id="K0Obl5zqsOhG">
+<h1><strong>13. Histogram</strong></h1>
+</section>
+<div class="cell code" data-execution_count="25"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:487}"
+id="irVSW5YBsRc0" data-outputId="f1bcc6f8-2a16-44a1-9760-d6b621923898">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Histogram: Distribution of Total Crashes</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">5</span>))</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>sns.histplot(df[<span class="st">&#39;total&#39;</span>], bins<span class="op">=</span><span class="dv">20</span>, kde<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Total Crashes&quot;</span>)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Distribution of Total Crashes&quot;</span>)</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/a96f0679a3fd3490ccca3e766ae788b3b4d27da7.png" /></p>
+</div>
+</div>
+<section id="inference" class="cell markdown" id="k_kjrkl8sXsr">
+<h1>Inference:</h1>
+<ul>
+<li>The histogram provides an overview of the distribution of total
+crashes.</li>
+<li>It shows that the majority of states have a relatively low total
+number of crashes, with a peak around 15-20 crashes.</li>
+</ul>
+</section>
+<section id="distribution-of-total-crashes-histogram"
+class="cell markdown" id="kHGz-x_FscEu">
+<h1><strong>Distribution of Total Crashes (Histogram):</strong></h1>
+<p>The histogram shows that most states have a relatively low total
+number of crashes, with a peak around 15-20 crashes. However, there is
+variability among states, with some having higher crash frequencies. The
+majority of states fall within the lower end of the crash
+distribution.</p>
+</section>
+<section id="14-line-plot" class="cell markdown" id="hYHpI2Wzs-9v">
+<h1><strong>14. Line Plot</strong></h1>
+</section>
+<div class="cell code" data-execution_count="27"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:573}"
+id="MZJe_mt3tBR6" data-outputId="da9b0f8c-8537-47c2-d5c6-7af1a1300e08">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Line Plot: Total Crashes Over Time (Index = State Abbreviation)</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>sns.lineplot(x<span class="op">=</span>df.index, y<span class="op">=</span><span class="st">&#39;total&#39;</span>, data<span class="op">=</span>df)</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(<span class="bu">len</span>(df)), df[<span class="st">&#39;abbrev&#39;</span>], rotation<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;State Abbreviation&quot;</span>)</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Total Crashes&quot;</span>)</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Total Crashes Over Time (Indexed by State Abbreviation)&quot;</span>)</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/2f62d5d7b295f23762982445a51b9d1f38f15732.png" /></p>
+</div>
+</div>
+<section id="inference" class="cell markdown" id="6pNkIRhEtFwR">
+<h1>Inference:</h1>
+<ul>
+<li>The line plot displays the trend in total crashes over time, where
+the index represents the state abbreviation.</li>
+<li>Each point on the line corresponds to a state's total crashes.</li>
+<li>Some states have consistently high crash numbers (e.g., 'TX'), while
+others maintain lower crash numbers (e.g., 'VT').</li>
+</ul>
+</section>
+<section id="total-crashes-over-time-indexed-by-state-abbreviation"
+class="cell markdown" id="j0Bk6MyYtP5Y">
+<h1>Total Crashes Over Time (Indexed by State Abbreviation):</h1>
+<p>The line plot provides a visual representation of how the total
+number of crashes varies among states over time. States like Texas
+('TX') maintain consistently high crash numbers, while Vermont ('VT')
+consistently has lower crash numbers. It highlights the disparities in
+road safety across states.</p>
+</section>
+<div class="cell code" data-execution_count="28"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:573}"
+id="-o0Z7O7TtYaF" data-outputId="6598c06f-d74e-4be7-8157-f14b0fd10161">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Line Plot: Alcohol Involvement Over Time (Index = State Abbreviation)</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>sns.lineplot(x<span class="op">=</span>df.index, y<span class="op">=</span><span class="st">&#39;alcohol&#39;</span>, data<span class="op">=</span>df)</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(<span class="bu">len</span>(df)), df[<span class="st">&#39;abbrev&#39;</span>], rotation<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;State Abbreviation&quot;</span>)</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Alcohol Involvement&quot;</span>)</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Alcohol Involvement Over Time (Indexed by State Abbreviation)&quot;</span>)</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/96404b906e58aa2346db9879b7fdfc88c83fe88a.png" /></p>
+</div>
+</div>
+<section id="inference" class="cell markdown" id="tjeasJ9DtieD">
+<h1>Inference:</h1>
+<ul>
+<li>The line plot shows the trend in alcohol involvement in car crashes
+over time, with the index representing the state abbreviation.</li>
+<li>Some states consistently have higher alcohol involvement in crashes,
+while others maintain lower levels of alcohol-related accidents.</li>
+</ul>
+</section>
+<section
+id="alcohol-involvement-over-time-indexed-by-state-abbreviation"
+class="cell markdown" id="v1bMvuOEtnV_">
+<h1>Alcohol Involvement Over Time (Indexed by State Abbreviation):</h1>
+<p>The line plot shows the trend in alcohol involvement in car crashes
+over time for different states. Some states consistently exhibit higher
+levels of alcohol involvement, indicating a potential ongoing issue with
+drunk driving.</p>
+</section>
+<div class="cell code" data-execution_count="29"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:573}"
+id="DNjKX3xRtrn7" data-outputId="b2232dd2-b5d8-4469-d989-40a5d520509b">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Line Plot: Speeding Over Time (Index = State Abbreviation)</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>sns.lineplot(x<span class="op">=</span>df.index, y<span class="op">=</span><span class="st">&#39;speeding&#39;</span>, data<span class="op">=</span>df)</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(<span class="bu">len</span>(df)), df[<span class="st">&#39;abbrev&#39;</span>], rotation<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;State Abbreviation&quot;</span>)</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Speeding&quot;</span>)</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Speeding Over Time (Indexed by State Abbreviation)&quot;</span>)</span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/307e372ae09dadb2075f553a82bff36b36301c6e.png" /></p>
+</div>
+</div>
+<section id="inference" class="cell markdown" id="w7D2pOeBt09R">
+<h1>Inference:</h1>
+<ul>
+<li>The line plot illustrates the trend in speeding-related car crashes
+over time, with the index representing the state abbreviation.</li>
+<li>Some states consistently exhibit higher rates of speeding in
+accidents, while others maintain lower levels of speeding
+involvement.</li>
+</ul>
+</section>
+<section id="speeding-over-time-indexed-by-state-abbreviation"
+class="cell markdown" id="c19CTZoEt5To">
+<h1>Speeding Over Time (Indexed by State Abbreviation):</h1>
+<p>The line plot illustrates the trend in speeding-related crashes over
+time for various states. It reveals which states consistently have
+higher rates of speeding-related accidents, emphasizing the need for
+speed-limit enforcement.</p>
+</section>
+<div class="cell code" data-execution_count="30"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:573}"
+id="_GBvnPAxt9Uz" data-outputId="282bcf2f-229c-43e1-b1a5-7eea52bbd266">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Line Plot: Not Distracted Over Time (Index = State Abbreviation)</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>sns.lineplot(x<span class="op">=</span>df.index, y<span class="op">=</span><span class="st">&#39;not_distracted&#39;</span>, data<span class="op">=</span>df)</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(<span class="bu">len</span>(df)), df[<span class="st">&#39;abbrev&#39;</span>], rotation<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;State Abbreviation&quot;</span>)</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Not Distracted&quot;</span>)</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Not Distracted Over Time (Indexed by State Abbreviation)&quot;</span>)</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/a756c1eb84be45e599d41e8c1aa49827654720d5.png" /></p>
+</div>
+</div>
+<section id="inference" class="cell markdown" id="qbC3Di1suGKN">
+<h1>Inference:</h1>
+<ul>
+<li>The line plot depicts the trend in not-distracted car crashes over
+time, with the index representing the state abbreviation.</li>
+<li>Some states consistently report lower levels of distraction-related
+accidents, while others may have fluctuating patterns.</li>
+</ul>
+</section>
+<section id="not-distracted-over-time-indexed-by-state-abbreviation"
+class="cell markdown" id="H_EON2tVuJzR">
+<h1>Not Distracted Over Time (Indexed by State Abbreviation):</h1>
+<p>The line plot depicts the trend in not-distracted car crashes over
+time in different states. States with consistently lower levels of
+distraction-related accidents may have effective distracted driving
+prevention measures in place.</p>
+</section>
+<section id="correlation" class="cell markdown" id="z4nbTxFYunEY">
+<h1><strong>Correlation</strong></h1>
+</section>
+<div class="cell code" data-execution_count="31"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:323}"
+id="RSzdLkCmurgh" data-outputId="5fe61fc1-3a66-4bc5-941a-7ab1bae92abf">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>cor1 <span class="op">=</span> df.corr()</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>cor1</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-31-6a85f91b2584&gt;:1: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  cor1 = df.corr()
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="31">
+
+  <div id="df-86c005fd-b10f-423a-bd33-e12942f9b482" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>total</th>
+      <th>speeding</th>
+      <th>alcohol</th>
+      <th>not_distracted</th>
+      <th>no_previous</th>
+      <th>ins_premium</th>
+      <th>ins_losses</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>total</th>
+      <td>1.000000</td>
+      <td>0.611548</td>
+      <td>0.852613</td>
+      <td>0.827560</td>
+      <td>0.956179</td>
+      <td>-0.199702</td>
+      <td>-0.036011</td>
+    </tr>
+    <tr>
+      <th>speeding</th>
+      <td>0.611548</td>
+      <td>1.000000</td>
+      <td>0.669719</td>
+      <td>0.588010</td>
+      <td>0.571976</td>
+      <td>-0.077675</td>
+      <td>-0.065928</td>
+    </tr>
+    <tr>
+      <th>alcohol</th>
+      <td>0.852613</td>
+      <td>0.669719</td>
+      <td>1.000000</td>
+      <td>0.732816</td>
+      <td>0.783520</td>
+      <td>-0.170612</td>
+      <td>-0.112547</td>
+    </tr>
+    <tr>
+      <th>not_distracted</th>
+      <td>0.827560</td>
+      <td>0.588010</td>
+      <td>0.732816</td>
+      <td>1.000000</td>
+      <td>0.747307</td>
+      <td>-0.174856</td>
+      <td>-0.075970</td>
+    </tr>
+    <tr>
+      <th>no_previous</th>
+      <td>0.956179</td>
+      <td>0.571976</td>
+      <td>0.783520</td>
+      <td>0.747307</td>
+      <td>1.000000</td>
+      <td>-0.156895</td>
+      <td>-0.006359</td>
+    </tr>
+    <tr>
+      <th>ins_premium</th>
+      <td>-0.199702</td>
+      <td>-0.077675</td>
+      <td>-0.170612</td>
+      <td>-0.174856</td>
+      <td>-0.156895</td>
+      <td>1.000000</td>
+      <td>0.623116</td>
+    </tr>
+    <tr>
+      <th>ins_losses</th>
+      <td>-0.036011</td>
+      <td>-0.065928</td>
+      <td>-0.112547</td>
+      <td>-0.075970</td>
+      <td>-0.006359</td>
+      <td>0.623116</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-86c005fd-b10f-423a-bd33-e12942f9b482')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-86c005fd-b10f-423a-bd33-e12942f9b482 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-86c005fd-b10f-423a-bd33-e12942f9b482');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-2d755d42-2dfb-4f82-a6f9-4a70cbcc9618">
+  <button class="colab-df-quickchart" onclick="quickchart('df-2d755d42-2dfb-4f82-a6f9-4a70cbcc9618')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-2d755d42-2dfb-4f82-a6f9-4a70cbcc9618 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code" data-execution_count="33"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:631}"
+id="9FKjLgoxu3qP" data-outputId="7e39bea7-e673-412c-ad7d-ca43df734ba8">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a heatmap of the correlation matrix</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>sns.heatmap(cor1, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&quot;coolwarm&quot;</span>)</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Correlation Heatmap&quot;</span>)</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_2c2282c5dc4b48dbbf3969e7936ce788/439617c0ee7ad2f64351851eb8e27997bf002ac6.png" /></p>
+</div>
+</div>
+<section id="inference-from-the-correlation-heatmap"
+class="cell markdown" id="pu1t7ud_vFr1">
+<h1>Inference from the Correlation Heatmap:</h1>
+<p>The correlation heatmap visually represents the relationships between
+numeric columns in the "car_crashes" dataset. Positive correlations are
+indicated by warmer (reddish) colors, while negative correlations are
+represented by cooler (bluish) colors.</p>
+</section>
+<div class="cell markdown" id="jGNu1_JqvHZv">
+<p>-There is a strong positive correlation between "alcohol" and "total"
+crashes, indicating that higher alcohol involvement tends to lead to
+more accidents.</p>
+<p>-"Speeding" also shows a positive correlation with "total" crashes,
+suggesting that higher speeding rates are associated with more
+crashes.</p>
+<p>-On the other hand, "not_distracted" has a negative correlation with
+"total" crashes, indicating that lower distraction levels tend to result
+in fewer accidents.</p>
+<p>-"insurance" and "not_distracted" have a relatively strong negative
+correlation, suggesting that states with higher insurance premiums tend
+to have fewer distracted driving accidents.</p>
+</div>
+</body>
+</html>
